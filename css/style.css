@@ -1,0 +1,84 @@
+
+.timeline dl dd .kiss {
+    //background-color: #DA4453;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: 200;
+    width: 22px;
+    height: 22px;
+    margin-left: -11px;
+}
+
+.timeline dl dd .kiss img{
+    position: relative;
+    width:100%;
+}
+
+.timeline dl dd .time {
+    color:#DA4453;
+}
+
+.timeline dl dd .post-picture {
+    width: 47%;
+    padding: 10px 10px 0;
+    margin-top: 31px;
+    //background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.timeline dl dd .events {
+    padding-bottom: 10px;
+}
+
+.timeline dl dd.pos-right .post-picture {
+    float: left;
+}
+
+.timeline dl dd.pos-left .post-picture {
+    float: right;
+}
+
+.post-picture img {
+    max-width: 90%;
+}
+
+.min-pic img {
+    max-width: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+dd.pos-left .post-picture img {
+    float: right;
+}
+
+.timeline dl dd .events .events-body .events-heading {
+    display: inline-block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif!important;
+    margin:0;
+    font-weight: 700;
+}
+
+.comment {
+    margin: 10px 5px 10px 5px;
+    min-height: 20px;
+    padding: 5px;
+    border: 1px solid rgb(204, 204, 204);
+   /* border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;*/
+}
+
+.comment:empty:not(:focus):before {
+    content:attr(data-ph);
+    color : #999;
+}
+
+#container {
+    padding-left: 110px;
+}
+
+
